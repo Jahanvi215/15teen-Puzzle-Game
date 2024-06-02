@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  font-family: "PT Serif", serif;
+}
+.center{
+  text-align: center;
+}
+.heading{
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* common css */
+.mb-20{
+  margin-bottom: 20px;
+}
+.bold-text{
+  font-weight: 600;
+}
+
+/* Button css */
+.overlay {
+  position: absolute;
+  top: 21.5%;
+  left: 34%;
+  width: 32%;
+  height: 40%;
+  background-color: rgba(25, 25, 25, 0.5);
+  z-index: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.start-text{
+  font-size: 4rem;
+  cursor: pointer;
+  color: #fff;
+}
+.puzzel-btn{
+  background-color: #c9d2c7;
+  width: 100%;
+  height: 50%;
+  font-size: 1.1rem;
+}
+.move-div{
+  background-color: #d1d6f5;
+  font-size: 1.2rem;
+  padding: 5% 0;
+  border-radius: 10px;
+}
+
+/* Footer  CSS*/
+.footer-container{
+  text-align: center; 
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+}
+.foot-img{
+  width: 15%;
+}
+.foot-text{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.font-1{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+.bottom-text{
+  margin: 5rem 0;
+  font-size: 1.3rem;
+}
